@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: devops-demo
-        image: ghcr.io/mangeshchauhan/devops-demo:latest
+        image: mangeshc225/devops-demo:fd3c24dd56c962f82fe1f90116abb4c50302d26c
         ports:
         - containerPort: 5000
         readinessProbe:
