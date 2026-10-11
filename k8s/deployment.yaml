@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: devops-demo
-        image: docker.io/mangeshc225/devops-demo:latest
+        image: mangeshc225/devops-demo:43289eb96b97f8636b1fb6fafb6943db55f1352c
         ports:
         - containerPort: 5000
         readinessProbe:
