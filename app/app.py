@@ -6,7 +6,7 @@ VERSION = os.getenv("APP_VERSION", "v1")
 
 @app.route("/")
 def home():
-    return f"<h1>Hello from CI/CD pipeline! with code changes 🚀</h1><p>Version: {VERSION}</p>"
+    return f"<h1>Hello from CI/CD pipeline!🚀</h1><p>Version: {VERSION}</p>"
 
 @app.route("/health")
 def health():
