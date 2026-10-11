@@ -3,8 +3,9 @@ kind: Service
 metadata:
   name: devops-demo
 spec:
+  type: LoadBalancer
   selector:
     app: devops-demo
   ports:
-    - port: 80
-      targetPort: 5000
+  - port: 80
+    targetPort: 5000
